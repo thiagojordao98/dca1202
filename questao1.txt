@@ -1,0 +1,4 @@
+
+Qual a utilidade do aprendizado do uso de ponteiro para aplicações em engenharia?
+- os ponteiros são necessários para alocação dinâmica da memória, para sequências de dados alocados e para a passagem ou o retorno através referência.
+
