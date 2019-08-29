@@ -1,0 +1,20 @@
+
+
+Considerando a declaração int mat[4], *p, x;, quais das seguintes expressões são válidas? Justifique.
+
+p = mat + 1;
+p = mat++;
+p = ++mat;
+x = (*mat)++;
+
+-------------------------------------------------------------------.
+
+> Válido pois atribuindo "mat" ao ponteiro "p" você estará 
+passando &mat[0], somando 1, será somado 1*sizeof(int) bytes, 
+que no caso são 4bytes, então você estara passando &v[1].
+
+> Inválido
+
+> Inválido
+
+> Inválido

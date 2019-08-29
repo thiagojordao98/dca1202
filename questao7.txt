@@ -1,0 +1,1 @@
+ *(pulo + 2), se pulo é um ponteiro e você o chama sem o operador [] terá que utilizar o operador * para mostrar o seu valor.
